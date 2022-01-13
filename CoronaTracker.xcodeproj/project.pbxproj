@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		2714BAAD2790843C00F80BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAAC2790843C00F80BBD /* AppDelegate.swift */; };
 		2714BAAF2790843C00F80BBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAAE2790843C00F80BBD /* SceneDelegate.swift */; };
-		2714BAB12790843C00F80BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAB02790843C00F80BBD /* ViewController.swift */; };
 		2714BAB42790843C00F80BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2714BAB22790843C00F80BBD /* Main.storyboard */; };
 		2714BAB62790843D00F80BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2714BAB52790843D00F80BBD /* Assets.xcassets */; };
 		2714BAB92790843D00F80BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2714BAB72790843D00F80BBD /* LaunchScreen.storyboard */; };
+		2714BAC6279084B400F80BBD /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAC5279084B400F80BBD /* App.swift */; };
+		2714BAC9279085C200F80BBD /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAC8279085C200F80BBD /* MainCoordinator.swift */; };
+		2714BACB2790860000F80BBD /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BACA2790860000F80BBD /* MainTabbarController.swift */; };
+		2714BACF2790873F00F80BBD /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BACE2790873F00F80BBD /* PlaceholderViewController.swift */; };
+		2714BAD32790881200F80BBD /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAD22790881200F80BBD /* PlaceholderView.swift */; };
+		2714BAD627908D1E00F80BBD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAD527908D1E00F80BBD /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2714BAA92790843C00F80BBD /* CoronaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2714BAAC2790843C00F80BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2714BAAE2790843C00F80BBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2714BAB02790843C00F80BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2714BAB32790843C00F80BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2714BAB52790843D00F80BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2714BAB82790843D00F80BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2714BABA2790843D00F80BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2714BAC5279084B400F80BBD /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		2714BAC8279085C200F80BBD /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		2714BACA2790860000F80BBD /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		2714BACE2790873F00F80BBD /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
+		2714BAD22790881200F80BBD /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		2714BAD527908D1E00F80BBD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,84 @@
 		2714BAAB2790843C00F80BBD /* CoronaTracker */ = {
 			isa = PBXGroup;
 			children = (
-				2714BAAC2790843C00F80BBD /* AppDelegate.swift */,
-				2714BAAE2790843C00F80BBD /* SceneDelegate.swift */,
-				2714BAB02790843C00F80BBD /* ViewController.swift */,
+				2714BAC12790844F00F80BBD /* Resources */,
+				2714BAC02790844300F80BBD /* Sources */,
+			);
+			path = CoronaTracker;
+			sourceTree = "<group>";
+		};
+		2714BAC02790844300F80BBD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2714BAC42790848000F80BBD /* Scenes */,
+				2714BAC32790846000F80BBD /* Common */,
+				2714BAC22790845900F80BBD /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2714BAC12790844F00F80BBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2714BAB22790843C00F80BBD /* Main.storyboard */,
 				2714BAB52790843D00F80BBD /* Assets.xcassets */,
 				2714BAB72790843D00F80BBD /* LaunchScreen.storyboard */,
 				2714BABA2790843D00F80BBD /* Info.plist */,
 			);
-			path = CoronaTracker;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2714BAC22790845900F80BBD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2714BAAC2790843C00F80BBD /* AppDelegate.swift */,
+				2714BAAE2790843C00F80BBD /* SceneDelegate.swift */,
+				2714BAC5279084B400F80BBD /* App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2714BAC32790846000F80BBD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2714BAC42790848000F80BBD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2714BACD2790873200F80BBD /* Placeholder */,
+				2714BACC2790872C00F80BBD /* Map */,
+				2714BAC7279085B000F80BBD /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2714BAC7279085B000F80BBD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2714BAC8279085C200F80BBD /* MainCoordinator.swift */,
+				2714BACA2790860000F80BBD /* MainTabbarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2714BACC2790872C00F80BBD /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2714BAD527908D1E00F80BBD /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2714BACD2790873200F80BBD /* Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				2714BACE2790873F00F80BBD /* PlaceholderViewController.swift */,
+				2714BAD22790881200F80BBD /* PlaceholderView.swift */,
+			);
+			path = Placeholder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +162,8 @@
 			dependencies = (
 			);
 			name = CoronaTracker;
+			packageProductDependencies = (
+			);
 			productName = CoronaTracker;
 			productReference = 2714BAA92790843C00F80BBD /* CoronaTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,8 @@
 				Base,
 			);
 			mainGroup = 2714BAA02790843C00F80BBD;
+			packageReferences = (
+			);
 			productRefGroup = 2714BAAA2790843C00F80BBD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +221,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2714BAB12790843C00F80BBD /* ViewController.swift in Sources */,
+				2714BAC6279084B400F80BBD /* App.swift in Sources */,
+				2714BACB2790860000F80BBD /* MainTabbarController.swift in Sources */,
 				2714BAAD2790843C00F80BBD /* AppDelegate.swift in Sources */,
+				2714BACF2790873F00F80BBD /* PlaceholderViewController.swift in Sources */,
+				2714BAC9279085C200F80BBD /* MainCoordinator.swift in Sources */,
+				2714BAD32790881200F80BBD /* PlaceholderView.swift in Sources */,
 				2714BAAF2790843C00F80BBD /* SceneDelegate.swift in Sources */,
+				2714BAD627908D1E00F80BBD /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
