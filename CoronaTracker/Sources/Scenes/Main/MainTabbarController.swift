@@ -10,6 +10,12 @@ import UIKit
 /// Main tabbar controller
 final class MainTabbarController: UITabBarController {
 	
+	override var traitCollection: UITraitCollection {
+		let realTraits = super.traitCollection
+		let lieTrait = UITraitCollection.init(horizontalSizeClass: .regular)
+		return UITraitCollection(traitsFrom: [realTraits, lieTrait])
+	}
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
@@ -20,13 +26,7 @@ final class MainTabbarController: UITabBarController {
 		tabBar.scrollEdgeAppearance = tabBar.standardAppearance
 	}
 	
-	/// Add view controller to tab
-	/// - Parameters:
-	///   - viewController: controller
-	///   - title: title for this controller
-	func add(viewController: UIViewController, title: String) {
-		viewController.title = title		
-		setViewControllers((viewControllers ?? []) + [viewController],
-						   animated: false)
+	func set(tabs: [TabModel]) {
+		setViewControllers(tabs.map({ $0.viewController }), animated: true)
 	}
 }

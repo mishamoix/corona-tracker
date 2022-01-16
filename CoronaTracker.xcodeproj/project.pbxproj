@@ -15,9 +15,16 @@
 		2714BAC6279084B400F80BBD /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAC5279084B400F80BBD /* App.swift */; };
 		2714BAC9279085C200F80BBD /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAC8279085C200F80BBD /* MainCoordinator.swift */; };
 		2714BACB2790860000F80BBD /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BACA2790860000F80BBD /* MainTabbarController.swift */; };
-		2714BACF2790873F00F80BBD /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BACE2790873F00F80BBD /* PlaceholderViewController.swift */; };
-		2714BAD32790881200F80BBD /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAD22790881200F80BBD /* PlaceholderView.swift */; };
-		2714BAD627908D1E00F80BBD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714BAD527908D1E00F80BBD /* MapViewController.swift */; };
+		2766A0AF279427CE008E5E1C /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0AE279427CE008E5E1C /* TabModel.swift */; };
+		2766A0B227942AC8008E5E1C /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0B127942AC8008E5E1C /* UIImage.swift */; };
+		2766A0BA27942BE0008E5E1C /* BCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0B927942BE0008E5E1C /* BCoordinator.swift */; };
+		2766A0BC27942C1B008E5E1C /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0BB27942C1B008E5E1C /* PlaceholderViewController.swift */; };
+		2766A0BE27943062008E5E1C /* DDCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0BD27943062008E5E1C /* DDCoordinator.swift */; };
+		2766A0C02794306D008E5E1C /* MCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0BF2794306D008E5E1C /* MCoordinator.swift */; };
+		2766A0C227943074008E5E1C /* MKCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0C127943073008E5E1C /* MKCoordinator.swift */; };
+		2766A0C427943090008E5E1C /* TCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0C327943090008E5E1C /* TCoordinator.swift */; };
+		2766A0C6279430A1008E5E1C /* DCoodrinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0C5279430A1008E5E1C /* DCoodrinator.swift */; };
+		2766A0C82794316A008E5E1C /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A0C72794316A008E5E1C /* BaseCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +38,16 @@
 		2714BAC5279084B400F80BBD /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		2714BAC8279085C200F80BBD /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		2714BACA2790860000F80BBD /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
-		2714BACE2790873F00F80BBD /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
-		2714BAD22790881200F80BBD /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
-		2714BAD527908D1E00F80BBD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2766A0AE279427CE008E5E1C /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		2766A0B127942AC8008E5E1C /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		2766A0B927942BE0008E5E1C /* BCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCoordinator.swift; sourceTree = "<group>"; };
+		2766A0BB27942C1B008E5E1C /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
+		2766A0BD27943062008E5E1C /* DDCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDCoordinator.swift; sourceTree = "<group>"; };
+		2766A0BF2794306D008E5E1C /* MCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCoordinator.swift; sourceTree = "<group>"; };
+		2766A0C127943073008E5E1C /* MKCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinator.swift; sourceTree = "<group>"; };
+		2766A0C327943090008E5E1C /* TCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCoordinator.swift; sourceTree = "<group>"; };
+		2766A0C5279430A1008E5E1C /* DCoodrinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCoodrinator.swift; sourceTree = "<group>"; };
+		2766A0C72794316A008E5E1C /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,7 @@
 		2714BAC02790844300F80BBD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2766A0C72794316A008E5E1C /* BaseCoordinator.swift */,
 				2714BAC42790848000F80BBD /* Scenes */,
 				2714BAC32790846000F80BBD /* Common */,
 				2714BAC22790845900F80BBD /* App */,
@@ -106,6 +121,7 @@
 		2714BAC32790846000F80BBD /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2766A0B027942ABE008E5E1C /* Extensions */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -113,8 +129,12 @@
 		2714BAC42790848000F80BBD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				2714BACD2790873200F80BBD /* Placeholder */,
-				2714BACC2790872C00F80BBD /* Map */,
+				2766A0B827942BD0008E5E1C /* Dayem */,
+				2766A0B727942BC6008E5E1C /* Tallis */,
+				2766A0B627942BBF008E5E1C /* Mark */,
+				2766A0B527942BB6008E5E1C /* Mathe */,
+				2766A0B427942BA4008E5E1C /* David */,
+				2766A0B327942B97008E5E1C /* Branko */,
 				2714BAC7279085B000F80BBD /* Main */,
 			);
 			path = Scenes;
@@ -123,27 +143,76 @@
 		2714BAC7279085B000F80BBD /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2766A0AD279427C7008E5E1C /* Models */,
 				2714BAC8279085C200F80BBD /* MainCoordinator.swift */,
 				2714BACA2790860000F80BBD /* MainTabbarController.swift */,
+				2766A0BB27942C1B008E5E1C /* PlaceholderViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		2714BACC2790872C00F80BBD /* Map */ = {
+		2766A0AD279427C7008E5E1C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2714BAD527908D1E00F80BBD /* MapViewController.swift */,
+				2766A0AE279427CE008E5E1C /* TabModel.swift */,
 			);
-			path = Map;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		2714BACD2790873200F80BBD /* Placeholder */ = {
+		2766A0B027942ABE008E5E1C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2714BACE2790873F00F80BBD /* PlaceholderViewController.swift */,
-				2714BAD22790881200F80BBD /* PlaceholderView.swift */,
+				2766A0B127942AC8008E5E1C /* UIImage.swift */,
 			);
-			path = Placeholder;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2766A0B327942B97008E5E1C /* Branko */ = {
+			isa = PBXGroup;
+			children = (
+				2766A0B927942BE0008E5E1C /* BCoordinator.swift */,
+			);
+			path = Branko;
+			sourceTree = "<group>";
+		};
+		2766A0B427942BA4008E5E1C /* David */ = {
+			isa = PBXGroup;
+			children = (
+				2766A0BD27943062008E5E1C /* DDCoordinator.swift */,
+			);
+			path = David;
+			sourceTree = "<group>";
+		};
+		2766A0B527942BB6008E5E1C /* Mathe */ = {
+			isa = PBXGroup;
+			children = (
+				2766A0BF2794306D008E5E1C /* MCoordinator.swift */,
+			);
+			path = Mathe;
+			sourceTree = "<group>";
+		};
+		2766A0B627942BBF008E5E1C /* Mark */ = {
+			isa = PBXGroup;
+			children = (
+				2766A0C127943073008E5E1C /* MKCoordinator.swift */,
+			);
+			path = Mark;
+			sourceTree = "<group>";
+		};
+		2766A0B727942BC6008E5E1C /* Tallis */ = {
+			isa = PBXGroup;
+			children = (
+				2766A0C327943090008E5E1C /* TCoordinator.swift */,
+			);
+			path = Tallis;
+			sourceTree = "<group>";
+		};
+		2766A0B827942BD0008E5E1C /* Dayem */ = {
+			isa = PBXGroup;
+			children = (
+				2766A0C5279430A1008E5E1C /* DCoodrinator.swift */,
+			);
+			path = Dayem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,14 +290,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2766A0AF279427CE008E5E1C /* TabModel.swift in Sources */,
+				2766A0BC27942C1B008E5E1C /* PlaceholderViewController.swift in Sources */,
+				2766A0B227942AC8008E5E1C /* UIImage.swift in Sources */,
+				2766A0C227943074008E5E1C /* MKCoordinator.swift in Sources */,
+				2766A0C427943090008E5E1C /* TCoordinator.swift in Sources */,
+				2766A0C6279430A1008E5E1C /* DCoodrinator.swift in Sources */,
 				2714BAC6279084B400F80BBD /* App.swift in Sources */,
+				2766A0BA27942BE0008E5E1C /* BCoordinator.swift in Sources */,
 				2714BACB2790860000F80BBD /* MainTabbarController.swift in Sources */,
+				2766A0C02794306D008E5E1C /* MCoordinator.swift in Sources */,
+				2766A0C82794316A008E5E1C /* BaseCoordinator.swift in Sources */,
 				2714BAAD2790843C00F80BBD /* AppDelegate.swift in Sources */,
-				2714BACF2790873F00F80BBD /* PlaceholderViewController.swift in Sources */,
 				2714BAC9279085C200F80BBD /* MainCoordinator.swift in Sources */,
-				2714BAD32790881200F80BBD /* PlaceholderView.swift in Sources */,
 				2714BAAF2790843C00F80BBD /* SceneDelegate.swift in Sources */,
-				2714BAD627908D1E00F80BBD /* MapViewController.swift in Sources */,
+				2766A0BE27943062008E5E1C /* DDCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
