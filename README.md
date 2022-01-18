@@ -4,5 +4,4 @@
 
 - mishamoix
 - JimmyBiscuit
-- sans-connaissance
 - dayemsaeed
